@@ -1,0 +1,16 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "What is Angular? - Angular",
+      "author": "kunal",
+      "details": "Angular is a TypeScript-based open-source web application framework led by the Angular Team at Google and by a community of individuals and corporations. Angular is a complete rewrite from the same team that built AngularJS. Wikipedia"
+    },
+    {
+      "title": "i am learning nodejs",
+      "author": "kunal",
+      "details": "nodejs",
+      "id": 2
+    }
+  ]
+}
