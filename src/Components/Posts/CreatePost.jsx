@@ -54,6 +54,7 @@ const CreatePost = ({ history }) => {
               value={title}
               onChange={handleChange}
               placeholder="enter post title"
+              required
             />
           </div>
           <div className="form-group">
@@ -66,6 +67,7 @@ const CreatePost = ({ history }) => {
               value={author}
               onChange={handleChange}
               placeholder="enter post author"
+              required
             />
           </div>
           <div className="form-group">
@@ -78,6 +80,7 @@ const CreatePost = ({ history }) => {
               className="form-control"
               value={details}
               onChange={handleChange}
+              required
             ></textarea>
           </div>
           <div className="form-group">

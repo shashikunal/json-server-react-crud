@@ -6,6 +6,7 @@ import "react-toastify/dist/ReactToastify.css";
 import Navbar from "./Components/HeaderComponent/Navbar";
 import CreatePost from "./Components/Posts/CreatePost";
 import DeletePost from "./Components/Posts/DeletePost";
+import DetailsPost from "./Components/Posts/DetailsPost";
 import EditPost from "./Components/Posts/EditPost";
 import FetchPost from "./Components/Posts/FetchPost";
 import Home from "./Pages/Home";
@@ -33,8 +34,11 @@ const App = () => {
               <Route path="/edit-post/:id" exact>
                 <EditPost />
               </Route>
-              <Route path="delete-post/:id" exact>
+              <Route path="/delete-post/:id" exact>
                 <DeletePost />
+              </Route>
+              <Route path="/details-post/:id" exact>
+                <DetailsPost />
               </Route>
             </Switch>
           </main>
